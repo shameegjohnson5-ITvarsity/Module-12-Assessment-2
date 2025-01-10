@@ -102,13 +102,10 @@ table img{
 .button-container{
     display:flex;
     background-color: coral;
+    justify-self: center;
     justify-content: center;
     width:50rem;
     margin: 0 auto;
-    justify-content: space-evenly;
-    width:49%;
-    margin: 20px 0;
-    justify-self: center;
     border-radius: 20px;
     margin-bottom: 50px;
 }
@@ -189,7 +186,6 @@ table img{
     display: flex;
     width:5rem;
     justify-content: center;
-    width:25%;
     justify-content: flex-end;
 }
 

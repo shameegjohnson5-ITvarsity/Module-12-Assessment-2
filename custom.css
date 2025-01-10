@@ -85,7 +85,7 @@ table img{
 
 #refresh, #addContact{
     text-align: center;
-    width:45%;
+    width:50%;
     margin-right:8px !important; 
     background-color: coral;
     border-radius: 20px !important; 
@@ -106,7 +106,7 @@ table img{
 .button-container{
     display:flex;
     justify-content: space-evenly;
-    width:50%;
+    width:45%;
     margin: 20px 0;
 /*    margin-left:43px;*/
     justify-self: center;

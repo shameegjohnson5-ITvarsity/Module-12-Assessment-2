@@ -71,8 +71,6 @@ table{
     border-spacing: 10px;
     font-weight:bold;
     font-family: cursive;
-   
-   
 }
 
 table img{
@@ -87,7 +85,7 @@ table img{
 
 #refresh, #addContact{
     text-align: center;
-    width:10%;
+    width:50%;
     margin-right:8px !important; 
     background-color: coral;
     border-radius: 20px !important; 
@@ -107,11 +105,14 @@ table img{
 
 .button-container{
     display:flex;
-    justify-content: center;
-    width:100%;
+    justify-content: space-evenly;
+    width:50%;
     margin: 20px 0;
-    margin-left:43px;
+/*    margin-left:43px;*/
     justify-self: center;
+/*    background-color: red;*/
+    margin:0 auto;
+    margin-bottom: 50px;
 }
 
 #form-container{
@@ -122,8 +123,8 @@ table img{
 }
 
 #avatarImage img{
-    width:34rem;
-    height:24rem;
+    width:24rem;
+    height:14rem;
     border-radius:20px;
 }
 
@@ -163,6 +164,8 @@ table img{
 
 .button-container2{
     display:flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .button-container2 #homeLink, #editContact, #deleteContact{
@@ -186,10 +189,16 @@ table img{
     border-bottom-right-radius: 5px;
 }
 
+.button-container3{
+    display: flex;
+    width:28%;
+    justify-content: flex-end;
+}
+
 .home-btn{
-    margin-left:95px;
+/*    margin-left:95px;*/
     text-align: center;
-    width:10rem;
+    width:20%;
     background-color: silver;
     border: 0.5px solid gray;
     padding: 5px 10px;

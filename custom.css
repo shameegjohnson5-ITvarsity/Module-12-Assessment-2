@@ -1,8 +1,6 @@
 body{
     overflow-x: hidden;
     background: linear-gradient(to right, #002D62, pink);
-    
-    
 }
 
 .loading{
@@ -24,7 +22,6 @@ body{
     padding:20px;
     font-weight: 800;
     color:white;
-
 }
 
 .add-header{
@@ -38,27 +35,23 @@ body{
 
 table td{
     border-collapse: collapse;
-    
     text-align: center;
-    
     background-color:silver;
     border-radius:20px;
     box-shadow: inset 4px 4px 6px white;
-    
 }
 
 table td:nth-child(1){
     padding:0;
     width:0;
     background-color: transparent;
-     box-shadow: none;
-    
-    
+    box-shadow: none;
 }
 
 table td:nth-child(2){
     width:45%;
 }
+
 table td:nth-child(3){
     width:45%;
     background-color: lightblue;
@@ -81,7 +74,6 @@ table img{
 #table{
     display: flex;
     justify-content: center;
-     
 }
 
 #refresh{
@@ -95,9 +87,8 @@ table img{
 }
 
 #addContact{
-     text-align: center;
+    text-align: center;
     width:23rem;
-/*    margin-right:10px !important; */
     border:none;
     padding: 10px;
     color:white;
@@ -110,13 +101,15 @@ table img{
     color:black;
 }
 
-
 .button-container{
     display:flex;
     background-color: coral;
     justify-content: center;
     width:50rem;
     margin: 0 auto;
+    justify-content: space-evenly;
+    width:49%;
+    margin: 20px 0;
     justify-self: center;
     border-radius: 20px;
     margin-bottom: 50px;
@@ -141,21 +134,19 @@ table img{
     gap: 5px 0; 
     width:25rem;
     margin-top: 50px;
-/*    padding-left:125px;*/
-
 }
 
 #editForm label {
     box-sizing: content-box !important; 
     padding:0;
     font-weight: 500;
+    color:white;
 }
 
 #editForm input { 
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box; 
-    
 }
 
 #editForm button{
@@ -167,19 +158,17 @@ table img{
     background-color: green;
     box-shadow: inset 2px 2px 5px darkgreen;
     border:none !important;
-       
 }
 
 .button-container2{
     display:flex;
     width: 100%;
     justify-content: center;
-     
 }
 
 .button-container2 #homeLink, #editContact, #deleteContact{
     text-align: center;
-    width:10rem;
+    width:12rem;
     background-color: silver;
     border: 0.5px solid gray;
     padding: 5px 10px;
@@ -202,11 +191,11 @@ table img{
     display: flex;
     width:5rem;
     justify-content: center;
-    
+    width:25%;
+    justify-content: flex-end;
 }
 
 .home-btn{
-/*    margin-left:95px;*/
     text-align: center;
     width:100%;
     background-color: silver;

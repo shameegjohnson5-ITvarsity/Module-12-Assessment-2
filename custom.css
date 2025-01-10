@@ -170,7 +170,7 @@ table img{
 
 .button-container2 #homeLink, #editContact, #deleteContact{
     text-align: center;
-    width:10rem;
+    width:12rem;
     background-color: silver;
     border: 0.5px solid gray;
     padding: 5px 10px;
